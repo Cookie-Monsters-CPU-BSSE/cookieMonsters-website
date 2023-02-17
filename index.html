@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Monsters</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <div>
+          <a href="index.html"><img src="images/COOKIE-MONSTERS-(png).png" class="logo"></a>
+        </div>
+        <div class="navBar" id="nav-bar">
+          <i class="fa-regular fa-circle-xmark" onclick="closeMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="">PROJECTS</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul> 
+        </div>
+        <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+      </nav>
+
+      <div class="textBox">
+        <h1>Welcome to the Cookie Jar</h1>
+        <p>Home of the hungry Cookie-Monsters <br>...be careful, they "byte"</p>
+        <a href="https://github.com/Cookie-Monsters-CPU-BSSE" class="gitHub-button">Visit our GitHub</a>
+      </div>
+
+    </section>
+    
+    <script>
+      let navBarLinks = document.getElementById("nav-bar");
+
+      function openMenu() {
+        navBarLinks.style.right = "0";
+      }
+
+      function closeMenu() {
+        navBarLinks.style.right = "-200px";
+      }
+
+    </script>
+
+  </body>
+  <footer>
+    <section class="footer">
+      <div class="logoMotto"></div>
+    </section>
+  </footer>
+</html>
