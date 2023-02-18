@@ -113,31 +113,22 @@ nav .fa-solid {
 
 /*----- about us page -----*/
 
-.textBox2 {
-  width: 90%;
-  color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+
   
 .sub-header h1 {
-  height: 55vh;
   margin-top: 0px;
   font-size: 64px;
-  color: #fff;
 }
 
 .sub-header{
-    height: 50vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(77, 77, 77, 0.7), rgba(35, 43, 59, 0.7)), url(images/CookieOnPlate.png);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color:#fff;
+  min-height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(77, 77, 77, 0.7), rgba(35, 43, 59, 0.7)),url(images/CookieOnPlate.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: #fff;
 }
 
 .row{
@@ -258,21 +249,12 @@ nav .fa-solid {
     cursor: pointer;
   }
 
-  .textBox2 {
-    width: 50%;
-    color: #fff;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
   .pic {
     width: 60%;
   }
 
   .sub-header h1 {
-    height: 30vh;
+    margin-top: 58px;
     font-size: 41px;
   }
 

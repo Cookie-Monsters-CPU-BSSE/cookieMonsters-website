@@ -294,7 +294,9 @@ h3{
   text-align: center;
   color: #fff;
 }
+
 .proj-header h1{
+  position: relative;
   margin-top: 0px;
   font-size: 64px;
 }
