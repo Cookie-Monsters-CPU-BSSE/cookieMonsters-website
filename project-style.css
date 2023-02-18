@@ -295,6 +295,13 @@ h3{
   color: #fff;
 }
 .proj-header h1{
-  margin-top: 40px;
+  margin-top: 0px;
   font-size: 64px;
+}
+
+@media(max-width: 700px) {
+  .proj-header h1{
+    margin-top: 58px;
+    font-size: 41px;
+  }
 }

@@ -124,25 +124,15 @@ nav .fa-solid {
 }
   
 .textBox2 h1 {
-  font-size: 60px;
-  color: #d49204;
-}
-
-.textBox2 h6 {
-  font-size: 20px;
-  color: rgb(255, 116, 3);
-}
-  
-.textBox2 p {
-  margin: 10px 0px 40px;
-  font-size: 20px;
-  color:black;
+  margin-top: -174px;
+  font-size: 64px;
+  color: #fff;
 }
 
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/cookiebg.jpg);
+    background-image: linear-gradient(rgba(77, 77, 77, 0.7), rgba(35, 43, 59, 0.7)), url(images/CookieOnPlate.png);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -197,7 +187,7 @@ nav .fa-solid {
 .about-comp{
   flex-basis: 100%;
   background: hsl(0, 2%, 81%);
-  border: 2px solid black;
+  border: none;
   border-radius: 35px;
   padding: 60px 25px 35px 25px;
   position: relative;
@@ -205,14 +195,15 @@ nav .fa-solid {
 
 .about-comp-gen h1{
   text-align: center;
-  border: 3px solid black;
-  border-style: double;
+  border: none;
   font-size: 40px;
+  margin-top: -20px;
 }
 
 .about-comp-gen p{
   text-align: center;
   font-size: 20px;
+  margin-bottom: 75px;
 }
 
 .about-comp img{
@@ -279,25 +270,9 @@ nav .fa-solid {
     width: 60%;
   }
 
-  .textBox2 p {
-    margin: 10px 0 40px;
-    font-size: 13px;
-    color: black;
-  }
-
   .textBox2 h1 {
-    font-size: 35px;
-    color: #d49204;
-  }
-
-  .sub-header{
-    height: 30vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/cookiebg.jpg);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color:#fff;
+    font-size: 41px;
+    margin-top: -85px;
   }
 
   .about-comp h2 {
@@ -322,7 +297,6 @@ nav .fa-solid {
   .about-comp{
     flex-basis: 80%;
     background: hsl(0, 2%, 81%);
-    border: 2px solid black;
     border-radius: 35px;
     padding: 40px 25px 35px 25px;
     position: relative;
